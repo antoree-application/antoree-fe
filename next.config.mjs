@@ -9,10 +9,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Enable HTTPS for development
-  experimental: {
-    serverExternalPackages: [],
-  },
   webpack: (config, { isServer }) => {
     // Fix for potential bundling issues in development
     if (!isServer) {
