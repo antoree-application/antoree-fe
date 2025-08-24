@@ -1,0 +1,99 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="businessBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3f4f6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e5e7eb;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="businessBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#374151;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1f2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#businessBg)"/>
+  <rect x="20" y="20" width="760" height="560" fill="none" stroke="url(#businessBorder)" stroke-width="6"/>
+  <rect x="30" y="30" width="740" height="540" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="40" y="40" width="720" height="520" fill="none" stroke="#d1d5db" stroke-width="1"/>
+  
+  <!-- Header -->
+  <rect x="60" y="60" width="680" height="100" fill="url(#businessBorder)" rx="5"/>
+  
+  <!-- Corporate Logo -->
+  <rect x="100" y="90" width="50" height="40" fill="url(#goldAccent)" rx="3"/>
+  <text x="125" y="105" text-anchor="middle" fill="white" font-family="Arial Black" font-size="12">BEC</text>
+  <text x="125" y="120" text-anchor="middle" fill="white" font-family="Arial" font-size="8">CERTIFIED</text>
+  
+  <text x="170" y="95" fill="white" font-family="serif" font-size="28" font-weight="bold">BUSINESS ENGLISH INSTITUTE</text>
+  <text x="170" y="115" fill="white" font-family="serif" font-size="16">Professional Communication Certification</text>
+  <text x="170" y="135" fill="white" font-family="serif" font-size="12" opacity="0.9">Cambridge Business English Certificate Program</text>
+  <text x="170" y="150" fill="white" font-family="serif" font-size="12" opacity="0.9">Advanced Level Instructor Qualification</text>
+  
+  <!-- Gold Accent Line -->
+  <rect x="80" y="180" width="640" height="4" fill="url(#goldAccent)"/>
+  
+  <!-- Certificate Title -->
+  <text x="400" y="220" text-anchor="middle" fill="#111827" font-family="serif" font-size="36" font-weight="bold">BUSINESS ENGLISH SPECIALIST</text>
+  <text x="400" y="250" text-anchor="middle" fill="#374151" font-family="serif" font-size="18">Professional Teaching Certification</text>
+  
+  <!-- Recipient Section -->
+  <text x="400" y="290" text-anchor="middle" fill="#6b7280" font-family="serif" font-size="16">This certificate is awarded to</text>
+  
+  <rect x="150" y="305" width="500" height="55" fill="white" stroke="url(#goldAccent)" stroke-width="3" rx="5"/>
+  <text x="400" y="340" text-anchor="middle" fill="#1f2937" font-family="serif" font-size="32" font-weight="bold">[TEACHER NAME]</text>
+  
+  <!-- Achievement Details -->
+  <text x="400" y="385" text-anchor="middle" fill="#374151" font-family="serif" font-size="16">for successful completion of the comprehensive</text>
+  <text x="400" y="410" text-anchor="middle" fill="#111827" font-family="serif" font-size="22" font-weight="bold">BUSINESS ENGLISH TEACHING CERTIFICATION</text>
+  <text x="400" y="435" text-anchor="middle" fill="#374151" font-family="serif" font-size="15">Including specialized training in Corporate Communication and Professional Development</text>
+  
+  <!-- Competency Areas -->
+  <rect x="100" y="460" width="600" height="70" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2" rx="8"/>
+  <text x="400" y="480" text-anchor="middle" fill="#111827" font-family="Arial" font-size="13" font-weight="bold">Core Competencies Achieved:</text>
+  
+  <g transform="translate(150, 490)">
+    <rect x="0" y="0" width="120" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+    <text x="60" y="12" text-anchor="middle" fill="#374151" font-family="Arial" font-size="9" font-weight="bold">PRESENTATIONS</text>
+    <text x="60" y="23" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="8">Public Speaking</text>
+  </g>
+  
+  <g transform="translate(290, 490)">
+    <rect x="0" y="0" width="120" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+    <text x="60" y="12" text-anchor="middle" fill="#374151" font-family="Arial" font-size="9" font-weight="bold">NEGOTIATIONS</text>
+    <text x="60" y="23" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="8">Deal Making</text>
+  </g>
+  
+  <g transform="translate(430, 490)">
+    <rect x="0" y="0" width="120" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+    <text x="60" y="12" text-anchor="middle" fill="#374151" font-family="Arial" font-size="9" font-weight="bold">MEETINGS</text>
+    <text x="60" y="23" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="8">Leadership</text>
+  </g>
+  
+  <!-- Footer Information -->
+  <text x="400" y="555" text-anchor="middle" fill="#9ca3af" font-family="Arial" font-size="11">Certificate No: BEC-ADV-2024-[ID] | Issued: August 2024 | Valid Through: August 2027</text>
+  
+  <!-- Signatures -->
+  <line x1="120" y1="570" x2="280" y2="570" stroke="#6b7280" stroke-width="1"/>
+  <text x="200" y="582" text-anchor="middle" fill="#374151" font-family="Arial" font-size="10" font-weight="bold">Academic Director</text>
+  
+  <line x1="520" y1="570" x2="680" y2="570" stroke="#6b7280" stroke-width="1"/>
+  <text x="600" y="582" text-anchor="middle" fill="#374151" font-family="Arial" font-size="10" font-weight="bold">Cambridge Assessment</text>
+  
+  <!-- Corporate Seal -->
+  <circle cx="720" cy="480" r="30" fill="url(#goldAccent)" opacity="0.2"/>
+  <circle cx="720" cy="480" r="25" fill="none" stroke="url(#goldAccent)" stroke-width="2"/>
+  <text x="720" y="477" text-anchor="middle" fill="#d97706" font-family="Arial" font-size="8" font-weight="bold">BUSINESS</text>
+  <text x="720" y="487" text-anchor="middle" fill="#d97706" font-family="Arial" font-size="8" font-weight="bold">CERTIFIED</text>
+  
+  <!-- Quality Assurance -->
+  <rect x="60" y="480" width="80" height="15" fill="#10b981" rx="7"/>
+  <text x="100" y="490" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">ISO CERTIFIED</text>
+</svg>

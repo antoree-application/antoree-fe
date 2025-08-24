@@ -1,0 +1,88 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Certificate Background -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f1f5f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    
+    <pattern id="decorativePattern" patternUnits="userSpaceOnUse" width="20" height="20">
+      <circle cx="10" cy="10" r="1" fill="#e2e8f0" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#backgroundGradient)"/>
+  
+  <!-- Decorative Pattern -->
+  <rect width="800" height="600" fill="url(#decorativePattern)"/>
+  
+  <!-- Border -->
+  <rect x="20" y="20" width="760" height="560" fill="none" stroke="url(#borderGradient)" stroke-width="6"/>
+  <rect x="35" y="35" width="730" height="530" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Header Banner -->
+  <rect x="60" y="60" width="680" height="80" fill="url(#borderGradient)" rx="8"/>
+  
+  <!-- Institution Logo/Badge -->
+  <circle cx="120" cy="100" r="25" fill="white" opacity="0.9"/>
+  <circle cx="120" cy="100" r="18" fill="#10b981"/>
+  <text x="120" y="107" text-anchor="middle" fill="white" font-family="Arial Black" font-size="16" font-weight="bold">A</text>
+  
+  <!-- Header Text -->
+  <text x="170" y="90" fill="white" font-family="serif" font-size="28" font-weight="bold">ANTOREE LANGUAGE ACADEMY</text>
+  <text x="170" y="115" fill="white" font-family="serif" font-size="16" opacity="0.9">Certificate of Excellence</text>
+  
+  <!-- Certificate Title -->
+  <text x="400" y="200" text-anchor="middle" fill="#1e293b" font-family="serif" font-size="36" font-weight="bold">TEACHING CERTIFICATION</text>
+  <text x="400" y="230" text-anchor="middle" fill="#475569" font-family="serif" font-size="18">This is to certify that</text>
+  
+  <!-- Teacher Name Placeholder -->
+  <rect x="200" y="250" width="400" height="50" fill="none" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="400" y="280" text-anchor="middle" fill="#059669" font-family="serif" font-size="32" font-weight="bold">[TEACHER NAME]</text>
+  
+  <!-- Certification Text -->
+  <text x="400" y="330" text-anchor="middle" fill="#475569" font-family="serif" font-size="18">has successfully completed the requirements for</text>
+  <text x="400" y="360" text-anchor="middle" fill="#1e293b" font-family="serif" font-size="24" font-weight="bold">CERTIFIED ENGLISH LANGUAGE INSTRUCTOR</text>
+  <text x="400" y="390" text-anchor="middle" fill="#475569" font-family="serif" font-size="16">and is authorized to teach English as a Second Language</text>
+  
+  <!-- Credential Details -->
+  <text x="400" y="430" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="14">Credential ID: TEC-2024-[ID] | Valid Through: December 2026</text>
+  
+  <!-- Signature Section -->
+  <line x1="150" y1="500" x2="320" y2="500" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="235" y="520" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="12">Director of Certification</text>
+  <text x="235" y="535" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="12">Dr. Sarah Johnson</text>
+  
+  <!-- Date Section -->
+  <line x1="480" y1="500" x2="650" y2="500" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="565" y="520" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="12">Date of Certification</text>
+  <text x="565" y="535" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="12">August 23, 2024</text>
+  
+  <!-- Official Seal -->
+  <circle cx="680" cy="480" r="35" fill="#3b82f6" opacity="0.1"/>
+  <circle cx="680" cy="480" r="30" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <text x="680" y="475" text-anchor="middle" fill="#3b82f6" font-family="Arial" font-size="10" font-weight="bold">OFFICIAL</text>
+  <text x="680" y="488" text-anchor="middle" fill="#3b82f6" font-family="Arial" font-size="10" font-weight="bold">SEAL</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="480" r="25" fill="#fbbf24" opacity="0.2"/>
+  <text x="100" y="488" text-anchor="middle" fill="#f59e0b" font-family="Arial" font-size="20">★</text>
+  
+  <!-- Achievement Badges -->
+  <rect x="60" y="550" width="100" height="20" fill="#10b981" rx="10"/>
+  <text x="110" y="563" text-anchor="middle" fill="white" font-family="Arial" font-size="10" font-weight="bold">VERIFIED ✓</text>
+  
+  <rect x="180" y="550" width="120" height="20" fill="#3b82f6" rx="10"/>
+  <text x="240" y="563" text-anchor="middle" fill="white" font-family="Arial" font-size="10" font-weight="bold">ACCREDITED ★</text>
+  
+  <rect x="320" y="550" width="140" height="20" fill="#8b5cf6" rx="10"/>
+  <text x="390" y="563" text-anchor="middle" fill="white" font-family="Arial" font-size="10" font-weight="bold">PROFESSIONAL ⚡</text>
+</svg>
